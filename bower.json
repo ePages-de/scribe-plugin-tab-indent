@@ -1,0 +1,29 @@
+{
+  "name": "scribe-plugin-tab-indent",
+  "version": "0.1.0",
+  "homepage": "https://github.com/ePages-de/scribe-plugin-tab-indent",
+  "authors": [
+    "Florian Oellerich <f.oellerich@epages.com>"
+  ],
+  "description": "Tab indention for lists in scribe editor.",
+  "main": "src/scribe-plugin-tab-indent.js",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "scribe",
+    "plugin",
+    "tab",
+    "indent"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
