@@ -9,7 +9,7 @@
                     event.preventDefault();
 
                     // check if current selection is inside a list
-                    const listActive =
+                    var listActive =
                         scribe.getCommand('insertUnorderedList').queryState() ||
                         scribe.getCommand('insertOrderedList').queryState();
 
