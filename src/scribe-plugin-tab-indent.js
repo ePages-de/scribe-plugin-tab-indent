@@ -26,7 +26,7 @@
     };
 
     // Module system magic dance
-    if (typeof module !== 'undefined') {
+    if (typeof module !== 'undefined' && typeof module.exports === 'object') {
         module.exports = scribePluginTabIndent;
     } else if (typeof define === 'function' && typeof define.amd === 'object') {
         define(function () {
