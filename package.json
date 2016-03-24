@@ -1,6 +1,6 @@
 {
   "name": "scribe-plugin-tab-indent",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Tab indention for lists in scribe editor.",
   "main": "src/scribe-plugin-tab-indent.js",
   "scripts": {
